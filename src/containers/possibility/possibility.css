@@ -1,0 +1,111 @@
+.gpt3__feature-second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    
+}
+.gpt3__feature-second-img {
+    flex:2;
+
+}
+
+.gpt3__feature-second-img img{
+    width: 100%;
+    
+}
+
+
+.gpt3__feature-second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 4rem;
+    max-width: 600px;
+}
+.gpt3__feature-second-container h2{
+    font-family: Manrope;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px;
+}
+.feature-p{
+    padding-bottom: 1rem;
+    color: #71E5FF;
+    font-weight: 500;
+    line-height: 30px;
+    
+}
+.feature-p2{
+    padding-top: 2rem;
+    color: #81AFDD;
+    font-weight: 400;
+    line-height: 30px;
+}
+.feature-p3{
+    padding-top: 4rem;
+    color: #FF8A71;
+    
+    font-weight: 500;
+    line-height: 30px;
+}
+@media screen and (max-width: 550px){
+     
+   
+.gpt3__feature-second{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2rem 0;
+}
+    .gpt3__feature-second-container h2{
+        font-size: 14px;
+    }
+    .gpt3__feature-second-container {
+        
+        max-width: 150px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 850px){
+    .gpt3__feature-second-container {
+        
+        max-width: 390px;
+    }
+    .gpt3__feature-second-container h2{
+        font-size: 18px;
+    }
+    .gpt3__feature-second-img img{
+        width: 80%;
+        height: 60%;
+        align-items: center;
+        margin-left:2rem ;
+        
+    }
+    .gpt3__feature-second{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .gpt3__feature-second{
+        display: flex;
+        flex-direction: column;
+    }
+    .gpt3__feature-second-img img{
+        width: 85%;
+        height: 60%;
+        align-items: center;
+        margin-left:3.5rem ;
+    }
+}
